@@ -14,6 +14,21 @@ background: initial;
   background: green;
 }
 
+#upper {
+  text-align: center;
+  background: blue;
+}
+
+#lower {
+  background: purple;
+  }
+
+#footsies {
+  position: absolute; 
+  bottom: 0px;
+  width: 100%;
+}
+
 .co-author {
   font-style: italic;
 }
