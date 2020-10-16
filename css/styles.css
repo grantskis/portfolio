@@ -23,13 +23,14 @@ a {
   background: transparent;
 }
 
-#upper, #projects {
+#greeting, #projects {
   text-align: left;
   background: none;
 }
 
-#upper .jumbotron {
-  background: #c3a7c4;
+#greeting .jumbotron {
+  background: #2c282c;
+  color: #c9b9ca;
 }
 
 #projects {
@@ -46,19 +47,19 @@ a {
   font-style: italic;
 }  
 
-#not-yet {
-  text-decoration: line-through;
+#twins {
+  background: transparent;  
+}      
+
+#twins a {
+  color: #dbd4db;
 }
 
-#lower {
-  background: #c1b3e5;
+#mirror {
+  background: #c3a7c4;
   border-radius: 0.3rem;
   margin: 1em;
   }
-
-#footsies {
-  background: transparent;  
-}      
 
 #sidebar {
   background: initial;
