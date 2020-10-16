@@ -13,3 +13,11 @@ background: initial;
 #sidebar {
   background: green;
 }
+
+/*! Media queries occur below this line
+*/
+@media screen and (max-width: 768px) {
+  body {
+    background: teal;
+  }
+}
