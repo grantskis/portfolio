@@ -11,16 +11,16 @@ background: initial;
 }
 
 #sidebar {
-  background: green;
+  background: palegreen;
 }
 
 #upper {
   text-align: center;
-  background: blue;
+  background: paleturquoise;
 }
 
 #lower {
-  background: purple;
+  background: lavender;
   }
 
 #footsies {
@@ -43,5 +43,8 @@ background: initial;
 @media screen and (max-width: 768px) {
   body {
     background: teal;
+  }
+  #content {
+    min-height: 5em;
   }
 }
