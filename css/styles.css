@@ -5,9 +5,14 @@ body {
   background-size: cover;  
 }
 
+a {
+  color: #AD87B0;
+  font-variant:small-caps;
+}
+
 #banner {
-  background: inherit;
-  color: #7ab6e2;
+  color: #191719;
+  text-align:center;
 }
 
 #banner h1 {
@@ -15,34 +20,22 @@ body {
 }
 
 #content {
-  background: inherit;
-}
-
-#sidebar {
-  background: initial;
-  padding: 0px;
-  text-align: right;
-}
-
-#sidebar p {
-  padding-right: 1em;
-  background: rgba(193, 179, 229, .25);
-  color: rgba(255, 255, 255, .5);
-}
-
-#sidebar img {
-  width: 100%;
-  height: auto;
-  display: block;
+  background: transparent;
 }
 
 #upper, #projects {
   text-align: left;
-  background: paleturquoise;
+  background: none;
 }
 
 #upper .jumbotron {
-  background: inherit;
+  background: #c3a7c4;
+}
+
+#projects {
+  background: #2c282c;
+  color: #c9b9ca;
+  border-radius: 0.3rem
 }
 
 #projects ul li {
@@ -57,14 +50,42 @@ body {
   text-decoration: line-through;
 }
 
-
 #lower {
   background: #c1b3e5;
+  border-radius: 0.3rem;
+  margin: 1em;
   }
 
 #footsies {
-  background: white;  
+  background: transparent;  
 }      
+
+#sidebar {
+  background: initial;
+  padding: 0px;
+  text-align: right;
+}
+
+#sidebar img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#sidebar p {
+  padding-right: 1em;
+  background: #2c282c;
+  color: #c9b9ca;
+  border-radius: 0rem 0rem 0.3rem 0.3rem;
+}
+
+
+        
+
+
+
+
+
 
 
 
