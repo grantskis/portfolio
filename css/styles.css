@@ -1,5 +1,8 @@
 body {
-  background: #1d1d4a;
+  background: #625963;
+  background-image: url("background.png"); 
+  background-repeat: no-repeat; 
+  background-size: cover;  
 }
 
 #banner {
@@ -16,13 +19,15 @@ body {
 }
 
 #sidebar {
-  background: #c1b3e5;
+  background: initial;
   padding: 0px;
   text-align: right;
 }
 
 #sidebar p {
   padding-right: 1em;
+  background: rgba(193, 179, 229, .25);
+  color: rgba(255, 255, 255, .5);
 }
 
 #sidebar img {
