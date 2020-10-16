@@ -61,10 +61,11 @@ a {
   color: #dbd4db;
 }
 
-#mirror {
+#mirror-left, #mirror-right {
   background: #c3a7c4;
   border-radius: 0.3rem;
   margin: 1em;
+  margin-top: 0em;
   }
 
 #sidebar {
