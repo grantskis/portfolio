@@ -1,18 +1,18 @@
 body {
-background: initial;
+background: #1d1d4a;
 }
 
 #banner {
-  background: red;
+  background: inherit;
+  color: #7ab6e2;
 }
 
 #content {
-  background: yellow;
+  background: inherit;
 }
 
 #sidebar {
-  background: palegreen;
-  margin: 0px;
+  background: #c1b3e5;
   padding: 0px;
 }
 
@@ -22,10 +22,10 @@ background: initial;
 }
 
 #lower {
-  background: lavender;
+  background: #c1b3e5;
   }
 
-li {
+ul li {
   padding-bottom: 1em;
 }
 
@@ -46,6 +46,11 @@ li {
 .jumbotron {
   background: inherit;
 }
+
+#not-yet {
+  text-decoration: line-through;
+}
+
 
 /*! Media queries occur below this line
 */
