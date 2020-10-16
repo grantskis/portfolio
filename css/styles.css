@@ -12,6 +12,8 @@ background: initial;
 
 #sidebar {
   background: palegreen;
+  margin: 0px;
+  padding: 0px;
 }
 
 #upper {
@@ -23,9 +25,11 @@ background: initial;
   background: lavender;
   }
 
+#lower li {
+  padding-bottom: 1em;
+}
+
 #footsies {
-  position: absolute; 
-  bottom: 0px;
   width: 100%;
 }
 
@@ -33,9 +37,9 @@ background: initial;
   font-style: italic;
 }
 
-#sidebar ul a {
-  background: white;
-  font-weight: bold;
+#sidebar img {
+  width: 100%;
+  height: auto;
 }
 
 /*! Media queries occur below this line
