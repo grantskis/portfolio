@@ -10,7 +10,7 @@ _This is a basic webpage meant to demonstrate knowledge of the building blocks o
 - The vertical spacing between panels is visually inconsistent.
 
 ### Setup
-To view live on the web, please visit [this GitHub.io page](grantskis.github.io/lang-selector)
+To view live on the web, please visit [this GitHub.io page](grantskis.github.io/portfolio)
 
 To view locally on your machine, please:
 - Find the green **Code** button above the file list on this project's [main GitHub repository page](https://grantskis.github.io/portfolio/).
